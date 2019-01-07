@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84A1EE8721E3249C00D9C33F /* SPPermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A1EE8521E3249C00D9C33F /* SPPermission.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84A1EE8A21E3249C00D9C33F /* SPPermission.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A1EE8321E3249C00D9C33F /* SPPermission.framework */; };
+		84A1EE8B21E3249C00D9C33F /* SPPermission.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84A1EE8321E3249C00D9C33F /* SPPermission.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84A1EEAB21E324BF00D9C33F /* SPPermissionDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EE9321E324BF00D9C33F /* SPPermissionDialog.swift */; };
+		84A1EEAC21E324BF00D9C33F /* SPPermissionStyleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EE9521E324BF00D9C33F /* SPPermissionStyleAnimation.swift */; };
+		84A1EEAD21E324BF00D9C33F /* SPPermissionStyleOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EE9621E324BF00D9C33F /* SPPermissionStyleOrientation.swift */; };
+		84A1EEAE21E324BF00D9C33F /* SPPermissionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EE9721E324BF00D9C33F /* SPPermissionStyle.swift */; };
+		84A1EEAF21E324BF00D9C33F /* SPPermissionStyleShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EE9821E324BF00D9C33F /* SPPermissionStyleShadow.swift */; };
+		84A1EEB021E324BF00D9C33F /* SPPermissionStyleDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EE9921E324BF00D9C33F /* SPPermissionStyleDelay.swift */; };
+		84A1EEB121E324BF00D9C33F /* SPPermissionStyleColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EE9A21E324BF00D9C33F /* SPPermissionStyleColors.swift */; };
+		84A1EEB221E324BF00D9C33F /* SPPermissionDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EE9C21E324BF00D9C33F /* SPPermissionDialogController.swift */; };
+		84A1EEB321E324BF00D9C33F /* SPPermissionCloseIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EE9E21E324BF00D9C33F /* SPPermissionCloseIconView.swift */; };
+		84A1EEB421E324BF00D9C33F /* SPPermissionIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EE9F21E324BF00D9C33F /* SPPermissionIconView.swift */; };
+		84A1EEB521E324BF00D9C33F /* SPPermissionBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EEA021E324BF00D9C33F /* SPPermissionBlurView.swift */; };
+		84A1EEB621E324BF00D9C33F /* SPPermissionActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EEA121E324BF00D9C33F /* SPPermissionActionButton.swift */; };
+		84A1EEB721E324BF00D9C33F /* SPPermissionDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EEA221E324BF00D9C33F /* SPPermissionDialogView.swift */; };
+		84A1EEB821E324BF00D9C33F /* SPPermissionCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EEA321E324BF00D9C33F /* SPPermissionCloseButton.swift */; };
+		84A1EEB921E324BF00D9C33F /* SPPermissionDrawPermissionPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EEA521E324BF00D9C33F /* SPPermissionDrawPermissionPack.swift */; };
+		84A1EEBA21E324BF00D9C33F /* SPPermissionDrawDrawIconPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EEA621E324BF00D9C33F /* SPPermissionDrawDrawIconPack.swift */; };
+		84A1EEBB21E324BF00D9C33F /* SPPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EEA721E324BF00D9C33F /* SPPermission.swift */; };
+		84A1EEBC21E324BF00D9C33F /* SPPermissionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EEA821E324BF00D9C33F /* SPPermissionType.swift */; };
+		84A1EEBD21E324BF00D9C33F /* SPRequestPermissionLocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EEAA21E324BF00D9C33F /* SPRequestPermissionLocationHandler.swift */; };
 		F42AF87821C40D3A0067A9EA /* SPVibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42AF7D221C40D390067A9EA /* SPVibration.swift */; };
 		F42AF87921C40D3A0067A9EA /* SPPlayCircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42AF7D521C40D390067A9EA /* SPPlayCircleButton.swift */; };
 		F42AF87A21C40D3A0067A9EA /* SPSocialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42AF7D621C40D390067A9EA /* SPSocialButton.swift */; };
@@ -156,7 +178,53 @@
 		F49CC4842196DA160060FCAD /* SPPermissionDialogDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49CC4832196DA160060FCAD /* SPPermissionDialogDataSource.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		84A1EE8821E3249C00D9C33F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4652FA02195D0D1007CDB17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A1EE8221E3249C00D9C33F;
+			remoteInfo = SPPermission;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84A1EE8F21E3249C00D9C33F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84A1EE8B21E3249C00D9C33F /* SPPermission.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		84A1EE8321E3249C00D9C33F /* SPPermission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPPermission.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A1EE8521E3249C00D9C33F /* SPPermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPPermission.h; sourceTree = "<group>"; };
+		84A1EE8621E3249C00D9C33F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A1EE9321E324BF00D9C33F /* SPPermissionDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionDialog.swift; sourceTree = "<group>"; };
+		84A1EE9521E324BF00D9C33F /* SPPermissionStyleAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionStyleAnimation.swift; sourceTree = "<group>"; };
+		84A1EE9621E324BF00D9C33F /* SPPermissionStyleOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionStyleOrientation.swift; sourceTree = "<group>"; };
+		84A1EE9721E324BF00D9C33F /* SPPermissionStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionStyle.swift; sourceTree = "<group>"; };
+		84A1EE9821E324BF00D9C33F /* SPPermissionStyleShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionStyleShadow.swift; sourceTree = "<group>"; };
+		84A1EE9921E324BF00D9C33F /* SPPermissionStyleDelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionStyleDelay.swift; sourceTree = "<group>"; };
+		84A1EE9A21E324BF00D9C33F /* SPPermissionStyleColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionStyleColors.swift; sourceTree = "<group>"; };
+		84A1EE9C21E324BF00D9C33F /* SPPermissionDialogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionDialogController.swift; sourceTree = "<group>"; };
+		84A1EE9E21E324BF00D9C33F /* SPPermissionCloseIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionCloseIconView.swift; sourceTree = "<group>"; };
+		84A1EE9F21E324BF00D9C33F /* SPPermissionIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionIconView.swift; sourceTree = "<group>"; };
+		84A1EEA021E324BF00D9C33F /* SPPermissionBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionBlurView.swift; sourceTree = "<group>"; };
+		84A1EEA121E324BF00D9C33F /* SPPermissionActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionActionButton.swift; sourceTree = "<group>"; };
+		84A1EEA221E324BF00D9C33F /* SPPermissionDialogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionDialogView.swift; sourceTree = "<group>"; };
+		84A1EEA321E324BF00D9C33F /* SPPermissionCloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionCloseButton.swift; sourceTree = "<group>"; };
+		84A1EEA521E324BF00D9C33F /* SPPermissionDrawPermissionPack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionDrawPermissionPack.swift; sourceTree = "<group>"; };
+		84A1EEA621E324BF00D9C33F /* SPPermissionDrawDrawIconPack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionDrawDrawIconPack.swift; sourceTree = "<group>"; };
+		84A1EEA721E324BF00D9C33F /* SPPermission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermission.swift; sourceTree = "<group>"; };
+		84A1EEA821E324BF00D9C33F /* SPPermissionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionType.swift; sourceTree = "<group>"; };
+		84A1EEAA21E324BF00D9C33F /* SPRequestPermissionLocationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionLocationHandler.swift; sourceTree = "<group>"; };
 		F42AF7D221C40D390067A9EA /* SPVibration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPVibration.swift; sourceTree = "<group>"; };
 		F42AF7D521C40D390067A9EA /* SPPlayCircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPlayCircleButton.swift; sourceTree = "<group>"; };
 		F42AF7D621C40D390067A9EA /* SPSocialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPSocialButton.swift; sourceTree = "<group>"; };
@@ -310,16 +378,116 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F4652FA52195D0D1007CDB17 /* Frameworks */ = {
+		84A1EE8021E3249C00D9C33F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4652FA52195D0D1007CDB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A1EE8A21E3249C00D9C33F /* SPPermission.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84A1EE8421E3249C00D9C33F /* SPPermission */ = {
+			isa = PBXGroup;
+			children = (
+				84A1EE8521E3249C00D9C33F /* SPPermission.h */,
+				84A1EE8621E3249C00D9C33F /* Info.plist */,
+			);
+			path = SPPermission;
+			sourceTree = "<group>";
+		};
+		84A1EE9021E324BF00D9C33F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				84A1EE9121E324BF00D9C33F /* SPPermission */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+		84A1EE9121E324BF00D9C33F /* SPPermission */ = {
+			isa = PBXGroup;
+			children = (
+				84A1EE9221E324BF00D9C33F /* Dialog */,
+				84A1EEA721E324BF00D9C33F /* SPPermission.swift */,
+				84A1EEA821E324BF00D9C33F /* SPPermissionType.swift */,
+				84A1EEA921E324BF00D9C33F /* Handlers */,
+			);
+			path = SPPermission;
+			sourceTree = "<group>";
+		};
+		84A1EE9221E324BF00D9C33F /* Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				84A1EE9321E324BF00D9C33F /* SPPermissionDialog.swift */,
+				84A1EE9421E324BF00D9C33F /* Style */,
+				84A1EE9B21E324BF00D9C33F /* Controllers */,
+				84A1EE9D21E324BF00D9C33F /* Views */,
+				84A1EEA421E324BF00D9C33F /* Draw */,
+			);
+			path = Dialog;
+			sourceTree = "<group>";
+		};
+		84A1EE9421E324BF00D9C33F /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				84A1EE9521E324BF00D9C33F /* SPPermissionStyleAnimation.swift */,
+				84A1EE9621E324BF00D9C33F /* SPPermissionStyleOrientation.swift */,
+				84A1EE9721E324BF00D9C33F /* SPPermissionStyle.swift */,
+				84A1EE9821E324BF00D9C33F /* SPPermissionStyleShadow.swift */,
+				84A1EE9921E324BF00D9C33F /* SPPermissionStyleDelay.swift */,
+				84A1EE9A21E324BF00D9C33F /* SPPermissionStyleColors.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		84A1EE9B21E324BF00D9C33F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84A1EE9C21E324BF00D9C33F /* SPPermissionDialogController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84A1EE9D21E324BF00D9C33F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84A1EE9E21E324BF00D9C33F /* SPPermissionCloseIconView.swift */,
+				84A1EE9F21E324BF00D9C33F /* SPPermissionIconView.swift */,
+				84A1EEA021E324BF00D9C33F /* SPPermissionBlurView.swift */,
+				84A1EEA121E324BF00D9C33F /* SPPermissionActionButton.swift */,
+				84A1EEA221E324BF00D9C33F /* SPPermissionDialogView.swift */,
+				84A1EEA321E324BF00D9C33F /* SPPermissionCloseButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84A1EEA421E324BF00D9C33F /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				84A1EEA521E324BF00D9C33F /* SPPermissionDrawPermissionPack.swift */,
+				84A1EEA621E324BF00D9C33F /* SPPermissionDrawDrawIconPack.swift */,
+			);
+			path = Draw;
+			sourceTree = "<group>";
+		};
+		84A1EEA921E324BF00D9C33F /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				84A1EEAA21E324BF00D9C33F /* SPRequestPermissionLocationHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
 		F42AF7D021C40D390067A9EA /* SparrowKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -895,7 +1063,9 @@
 		F4652F9F2195D0D1007CDB17 = {
 			isa = PBXGroup;
 			children = (
+				84A1EE9021E324BF00D9C33F /* Source */,
 				F4652FAA2195D0D1007CDB17 /* request-permission */,
+				84A1EE8421E3249C00D9C33F /* SPPermission */,
 				F4652FA92195D0D1007CDB17 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -904,6 +1074,7 @@
 			isa = PBXGroup;
 			children = (
 				F4652FA82195D0D1007CDB17 /* request-permission.app */,
+				84A1EE8321E3249C00D9C33F /* SPPermission.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -942,7 +1113,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		84A1EE7E21E3249C00D9C33F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A1EE8721E3249C00D9C33F /* SPPermission.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		84A1EE8221E3249C00D9C33F /* SPPermission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A1EE8E21E3249C00D9C33F /* Build configuration list for PBXNativeTarget "SPPermission" */;
+			buildPhases = (
+				84A1EE7E21E3249C00D9C33F /* Headers */,
+				84A1EE7F21E3249C00D9C33F /* Sources */,
+				84A1EE8021E3249C00D9C33F /* Frameworks */,
+				84A1EE8121E3249C00D9C33F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPPermission;
+			productName = SPPermission;
+			productReference = 84A1EE8321E3249C00D9C33F /* SPPermission.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		F4652FA72195D0D1007CDB17 /* request-permission */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4652FBA2195D0D3007CDB17 /* Build configuration list for PBXNativeTarget "request-permission" */;
@@ -950,10 +1150,12 @@
 				F4652FA42195D0D1007CDB17 /* Sources */,
 				F4652FA52195D0D1007CDB17 /* Frameworks */,
 				F4652FA62195D0D1007CDB17 /* Resources */,
+				84A1EE8F21E3249C00D9C33F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				84A1EE8921E3249C00D9C33F /* PBXTargetDependency */,
 			);
 			name = "request-permission";
 			productName = "request-permission";
@@ -970,6 +1172,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Ivan Vorobei";
 				TargetAttributes = {
+					84A1EE8221E3249C00D9C33F = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					F4652FA72195D0D1007CDB17 = {
 						CreatedOnToolsVersion = 10.1;
 						SystemCapabilities = {
@@ -994,11 +1199,19 @@
 			projectRoot = "";
 			targets = (
 				F4652FA72195D0D1007CDB17 /* request-permission */,
+				84A1EE8221E3249C00D9C33F /* SPPermission */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		84A1EE8121E3249C00D9C33F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F4652FA62195D0D1007CDB17 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1011,6 +1224,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		84A1EE7F21E3249C00D9C33F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A1EEAC21E324BF00D9C33F /* SPPermissionStyleAnimation.swift in Sources */,
+				84A1EEBC21E324BF00D9C33F /* SPPermissionType.swift in Sources */,
+				84A1EEBA21E324BF00D9C33F /* SPPermissionDrawDrawIconPack.swift in Sources */,
+				84A1EEBD21E324BF00D9C33F /* SPRequestPermissionLocationHandler.swift in Sources */,
+				84A1EEB421E324BF00D9C33F /* SPPermissionIconView.swift in Sources */,
+				84A1EEB821E324BF00D9C33F /* SPPermissionCloseButton.swift in Sources */,
+				84A1EEB721E324BF00D9C33F /* SPPermissionDialogView.swift in Sources */,
+				84A1EEBB21E324BF00D9C33F /* SPPermission.swift in Sources */,
+				84A1EEB321E324BF00D9C33F /* SPPermissionCloseIconView.swift in Sources */,
+				84A1EEB221E324BF00D9C33F /* SPPermissionDialogController.swift in Sources */,
+				84A1EEAB21E324BF00D9C33F /* SPPermissionDialog.swift in Sources */,
+				84A1EEB521E324BF00D9C33F /* SPPermissionBlurView.swift in Sources */,
+				84A1EEB921E324BF00D9C33F /* SPPermissionDrawPermissionPack.swift in Sources */,
+				84A1EEAD21E324BF00D9C33F /* SPPermissionStyleOrientation.swift in Sources */,
+				84A1EEAF21E324BF00D9C33F /* SPPermissionStyleShadow.swift in Sources */,
+				84A1EEAE21E324BF00D9C33F /* SPPermissionStyle.swift in Sources */,
+				84A1EEB121E324BF00D9C33F /* SPPermissionStyleColors.swift in Sources */,
+				84A1EEB021E324BF00D9C33F /* SPPermissionStyleDelay.swift in Sources */,
+				84A1EEB621E324BF00D9C33F /* SPPermissionActionButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F4652FA42195D0D1007CDB17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1165,7 +1404,71 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		84A1EE8921E3249C00D9C33F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A1EE8221E3249C00D9C33F /* SPPermission */;
+			targetProxy = 84A1EE8821E3249C00D9C33F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		84A1EE8C21E3249C00D9C33F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2N39HTHUKU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SPPermission/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cp.swift.SPPermission;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84A1EE8D21E3249C00D9C33F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2N39HTHUKU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SPPermission/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cp.swift.SPPermission;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F4652FB82195D0D3007CDB17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1217,7 +1520,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1272,7 +1575,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1285,12 +1588,12 @@
 		F4652FBB2195D0D3007CDB17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "request-permission/request-permission.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2N39HTHUKU;
 				INFOPLIST_FILE = "request-permission/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1305,12 +1608,12 @@
 		F4652FBC2195D0D3007CDB17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "request-permission/request-permission.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2N39HTHUKU;
 				INFOPLIST_FILE = "request-permission/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1325,6 +1628,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		84A1EE8E21E3249C00D9C33F /* Build configuration list for PBXNativeTarget "SPPermission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A1EE8C21E3249C00D9C33F /* Debug */,
+				84A1EE8D21E3249C00D9C33F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F4652FA32195D0D1007CDB17 /* Build configuration list for PBXProject "request-permission" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
